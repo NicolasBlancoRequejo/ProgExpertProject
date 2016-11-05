@@ -510,8 +510,11 @@ static class LinqSudokuSolver
         solveGrid("grid2", grid2);
 
         var i = 0;
-        top95.ForEach((game) =>
-        solveGrid(string.Format("top {0}/95", ++i), game));
+        top95.ForEach((game) => {
+			Task.Factory.StartNew(() => {
+              solveGrid(string.Format("top {0}/95", ++i), game);
+            });
+        });
     }
 
     static void benchmark()
