@@ -4,3 +4,9 @@ C:\Users\Nicolas\Documents\School\ProgExpNet\LinqSudokuSolver\LinqSudokuSolver\b
 C:\Users\Nicolas\Documents\School\ProgExpNet\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.csprojResolveAssemblyReference.cache
 C:\Users\Nicolas\Documents\School\ProgExpNet\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.exe
 C:\Users\Nicolas\Documents\School\ProgExpNet\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.pdb
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\bin\Debug\LinqSudokuSolver.exe.config
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.exe
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.pdb
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\bin\Debug\LinqSudokuSolver.exe
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\bin\Debug\LinqSudokuSolver.pdb
+C:\Users\Nicolas\Documents\GitHub\ProgExpertProject\LinqSudokuSolver\LinqSudokuSolver\obj\Debug\LinqSudokuSolver.csprojResolveAssemblyReference.cache
