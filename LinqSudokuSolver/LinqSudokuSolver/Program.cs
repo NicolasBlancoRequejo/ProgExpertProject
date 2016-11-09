@@ -529,6 +529,23 @@ static class LinqSudokuSolver
         benchmark();
         Console.WriteLine("");
         displayAll();
-        solveGrid("hard1", hard1);
+   
+        Task hardSudoko = Task.Factory.StartNew(() => solveGrid("hard1", hard1));
+
+        int index = Task.WaitAny(new[] { hardSudoko },
+                                     TimeSpan.FromMinutes(10));
+        var cts = new CancellationTokenSource();
+ 
+        // Just a simple wait of getting a cancellable task
+        Task cancellable = hardSudoko.ContinueWith(ignored => { }, cts.Token);
+
+        // It doesn't matter that we cancel before the wait
+        cts.Cancel();
+
+        index = Task.WaitAny(new[] { cancellable },
+                             TimeSpan.FromMinutes(10));
+        Console.WriteLine(index); // 0 - task 0  has completed (ish :)
+        Console.WriteLine(cancellable.Status); // Cancelled
+        Console.ReadLine();
     }
 }
